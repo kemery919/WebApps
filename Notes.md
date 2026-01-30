@@ -9,7 +9,7 @@ API - returns raw data
 
 API - Application Program Interface
 
-# 1/16/2025
+# 1/16/2026
 
 Optional - Running the App in a Docker Container
 You have been learning about containers in the Dev Ops class. Running apps in containers are an extremely popular way to deploy apps, because containers are very light-weight and they ensure a consistent environment.
@@ -69,3 +69,36 @@ docker rmi web2-final-img
 ```
 
 https://webcoder.club/nodejs/web-2-deploying-your-final-project.html
+
+# 1/27/2026
+
+Stop the app:
+
+cloudlinux-selector stop --json --interpreter nodejs --user kyleaem1 --app-root /home/kyleaem1/api-final-project
+
+Install modules:
+
+cloudlinux-selector install-modules --json --interpreter nodejs --user kyleaem1 --app-root /home/kyleaem1/api-final-project
+
+Start the app:
+cloudlinux-selector start --json --interpreter nodejs --user kyleaem1 --app-root /home/kyleaem1/api-final-project
+
+# 1/30/2026
+
+https://awsacademy.instructure.com/login/canvas
+
+WiAWSmmcmpw!56473Ts
+
+AWS Stuff:
+
+cd into the aws key folder
+
+then:
+
+ssh -i mykey.pem ubuntu@100.53.117.85
+
+cmds:
+    - sudo apt update
+    - sudo apt install apache2 -y
+    - sudo systemctl status apache2
+
